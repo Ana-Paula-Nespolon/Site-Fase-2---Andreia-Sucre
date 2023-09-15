@@ -1,0 +1,328 @@
+
+@import url('https://fonts.googleapis.com/css2?family= Caveat & display=swap');
+
+
+*{
+    margin: 5;
+    padding: 1;
+    font-size: 35px;
+    align-items: center;
+    text-justify: center;
+    text-align: center;
+    font-style: italic;
+    background-color: #7c4a59;
+    color: beige;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    align-items: space-around;
+    font-family: Arial, cursive;
+    font-size: 55px;
+    background-color: #7c4a59
+}
+
+
+.banner-imagem {
+    background-image: url(img.2\ursinhos1.png);
+    opacity: 30%;
+    width: 145%;
+    height: 145%;
+    position:absolute;
+}
+
+.flex-container {
+    display: flex;
+    width: 100%;
+}
+
+.nav {
+    box-shadow: #cc869b;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 50px;
+    text-align: center;
+    font-size: 50px;
+    padding: 30px;
+    gap: 4px;
+}
+
+.cabecalho-imagem {
+    height: 99%;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    background-image: url(img.2\ursinhos1.png);
+}
+
+.cabecalho-menu {
+    display: flex;
+    font-size: 30px;
+    gap: 20px;
+    margin-top: 1px;
+}
+
+.cabecalho-menu-item {
+    font-family: cursive;
+    color:beige;
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 1px;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+}
+
+.conteúdo {
+    margin-bottom: 2px;
+    font-size: 35px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2px;
+    padding: 2px;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    padding: 1px;
+    gap: 1px;
+}
+
+.conteuto-principal-escrito-titulo-1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 60px;
+    color: beige;
+    gap: 5px;
+}
+
+.conteudo-principal-escrito-subtitulo-2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: beige;
+    font-weight: 40px;
+    font-size: 40px;
+    gap: 1px;
+}
+
+.conteudo-secundario-escrito-botao {
+    background-color: burlywood;
+    width: 40;
+    height: 20;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 40;
+    font-size: 18px;
+    color: beige;
+    padding: 2px;
+    gap: 2px;
+}
+
+.conteudo-principal-imagemX {
+    align-items: center;
+    flex-direction: row;
+    width: 350px;
+    height: 450px;
+    gap: 2px;
+
+}
+
+.selection-video-mikey {
+    height: 100%;
+    gap: 20px;
+    border-color: white;
+    background-color: red;
+    position: absolute;
+    top: 4px;
+    gap: 20px;
+    margin-right: 300px;
+    padding: 13vw;
+}
+
+.selection-video-starwas {
+    height: 600px;
+    gap: 20px;
+    border-color: white;
+    background-color: red;
+    position: relativa;
+    top: 4px;
+    gap: 20px;
+    margin-left: 40px;
+    left: 2px; 
+    padding: 13vw;
+}
+
+.gallery_video {
+    display: flex;
+    padding-inline-start: 400px;
+    width: 100%;
+    height: 100%;
+    gap: 15px;
+    object-fit: cover;
+    padding: 5vw;
+    }
+
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    font-size: 25px;
+    text-align: center;
+    gap: 2px;
+    padding: 2px;
+    
+}
+
+.conteudo-principal-escrito-titulo-2 {
+    font-family: cursive;
+    font-weight: 400;
+    font-size: 250%;
+    color: beige;
+    text-decoration: 0;
+    text-underline-position: 0px;
+    gap: 2px;
+    margin-top: 80px;
+    font-style: italic;
+}
+
+.conteudo-secundario-escrito-titulo-2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 80px;
+    color: beige;
+    text-decoration: 0;
+    text-underline-position: 0px;
+    gap: 2px;
+    margin-top: 35px;
+}
+
+.conteudo-secundario-escrito-titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 100px;
+    color: beige;
+    text-decoration: 0;
+    text-underline-position: 5px;
+    gap: 1px;
+    margin-top: 1px;
+}
+
+
+.conteudo-secundario-imagemX {
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    font-size: 30px;
+    gap: 2px;
+    align-items: center;
+    padding: auto;
+    
+}
+
+.conteudo-secundário-imagem {
+    height: 72px;
+    flex-direction: row;
+    gap: 2px;
+    align-items: center;
+    padding: auto;
+    
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 30;
+    font-size: 40px;
+    color: beige;
+    border: none;
+    gap: 2px;
+    
+}
+
+.button-as-link {
+    text-decoration: none;
+    padding: 2px 2px;
+    color: #7c4a59;
+    font-size: 5px;
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 2px;
+}
+
+.link-as-button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 2px;
+    font-size: 2px;
+    background-color: beige;
+    padding: 2px 2px;
+    color: #7c4a59;
+    border: none;
+    gap: 2px;
+}
+
+.gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 0 1vw;
+    box-sizing: border-box;
+}
+
+.gallery-items{
+    width: 370px;
+    height: 460px;
+    border: 10px solid #fff;
+    box-shadow: 4px 4px 4px #0006;
+    flex-grow: 2;
+    transition: transform 1s linear;
+}
+
+.gallery-items-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery-items:hover{
+    transform: scale(1.3);
+    filter: none;
+}
+
+.gallery-items-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery-items:hover{
+    transform: scale(1.3);
+}
+
+.rodape {
+    padding: 20px;
+    font-size: 30px;
+    color:beige;
+    text-align: right;
+    border-top: 0.5px solid beige;
+    gap: 20px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
